@@ -22,7 +22,6 @@ export default (props) => {
 
   const handleFormSubmit = (evt) => {
     evt.preventDefault();
-    dispatch(createAction(actions.ADD_ITEM, fields));
     setFields(_defaultFields);
   };
 
