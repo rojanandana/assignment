@@ -5,7 +5,7 @@ import "./styles.css";
 
 // Data
 import initialState from "./initialstate";
-import { reducer, StoreContext, actions } from "./reducer";
+import { reducer, StoreContext } from "./reducer";
 
 // Components
 import AddItem from "./components/AddItem";
