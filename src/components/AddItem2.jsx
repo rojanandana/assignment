@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 
 // State
-import { StoreContext, actions, createAction } from "../reducer";
+import { StoreContext } from "../reducer";
 
 export default (props) => {
   const _defaultFields = {
